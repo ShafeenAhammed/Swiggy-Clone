@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+.block1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.left1{
+    display: flex;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+}
+.login{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 45%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    
+}
+
+#logid{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+}
+#logid:hover{
+    color: #fc8019;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 60%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+
+}
+#signid{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 10px 0px 8px;
+}
+
+.logo{
+    padding-left: 85px;
+    padding-right: 100px;
+    height: 54px;
+    width: auto;
+}
+
+#l1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 88px;
+}
+
+#l2{
+    color: gray;
+    margin-left: 88px;
+}
+
+.location{
+    display: flex;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    height: 58px;
+    line-height: 28px;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 160px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 36vw;
+}
+
+.search{
+    flex: auto;
+    border: 1px solid #fc8019;
+}
+.search input{
+    font-size: large;
+    border: none;
+    box-sizing: content-box;
+    width: 64%;
+    background: transparent;
+    outline: none;
+    margin-top: 14px;
+    margin-left: 16px;
+    caret-color: #fc8019;
+}
+#b1{
+    height: 34px;
+    width: 85px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 38px;
+    background: transparent;
+    border: none;
+}
+#b1 i{
+    font-size: 15px;
+}
+#b1:hover{
+    background-color: lightgrey;
+    
+}
+button{
+    cursor: pointer;
+}
+#b2{
+    width: 110.8px;
+    height: 58.6px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fc8019;
+    border: none;
+    margin-top: 0px;
+    font-weight: 700;
+    
+}
+
+.cl{
+    margin-top: 30px;
+    margin-left: 88px;
+}
+
+.cities{
+    font-size: 15px;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    color: #a9abb2;
+    margin: 30px 0 10px;
+    letter-spacing: -.2px;
+}
+
+.citylist{
+    font-size: 16px;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+}
+.list{
+    color: #686b78;
+    text-decoration: none;
+}
+.list:nth-child(even){
+    color: #93959f;
+}
+
+
+.right{
+
+    background-image:url("img/Lunch1_vlksgq.jpeg") ;
+    left: calc(50% + 80px);
+    right: 0;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: 100%;
+    top: 0;
+    background-color: hsla(26,5%,70%,.2);
+    height: 70vh;
+}
+.banner{
+    height: auto;
+    max-width: 100%;
+}
+
+.Block2{
+    
+    display: grid;
+    height: 75vh;
+    grid-template-columns: 33% 33% 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(43,30,22);
+}
+
+.crd{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: white;
+}
+.crd img{
+    padding-top: 7px;
+    height: 200px;
+    width: auto;
+}
+
+.p1{
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+#id1{
+    padding-left: 0px;
+}
+.p2{
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: center;
+}
+
+.Block3{
+    display: grid;
+    grid-template-columns: 25% 37.5% 37.5%;
+    padding: 0 20px;
+    height: 570px;
+    overflow: hidden;
+}
+.text{
+    display: flex;
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 100px;
+}
+.text1{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    color: #282c3f;
+    line-height: 40px;
+    letter-spacing: -.40px;
+}
+.text2{
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 24px;
+}
+.text3{
+    display: inline-block;
+}
+.img3{
+    height: 60px;
+}
+.phoneimage1{
+    width: 300px;
+    padding-left: 400px;
+}
+.phone1{
+    width: 300px;
+}
+.phoneimage2{
+    width: 300px;
+    padding-left: 200px;
+}
+.phone2{
+    width: 300px;
+    padding-top: 188px;
+}
+
+.Block4{
+    background-color: black;
+    color: white;
+}
+
+.part1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-left: 88px;
+}
+.footLink{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.store img{
+    display: block;
+    padding-bottom: 15px;
+    width: 12vw;
+    border: 2px solid white;
+    border-radius: 18px;
+}
+.part2{
+    display: grid;
+    height: 12vh;
+    grid-template-columns: 33.34% 33.34% 33.34%;
+    padding-left: 88px;
+}
+.part2 img{
+    width: 10vw;
+}
+.Social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s{
+    width: 46px;
+    height: 55px;
+    
+}
+.s i{
+    font-size: 24px;
+}
+
+.s i:hover{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.copyright{
+    font-size: 18px;
+    font-family: ProximaNova, arial, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+}
+
