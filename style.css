@@ -205,7 +205,7 @@ button{
 .Block2{
     
     display: grid;
-    height: 75vh;
+    height: 56vh;
     grid-template-columns: 33% 33% 33%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -222,6 +222,8 @@ button{
 }
 .crd img{
     padding-top: 7px;
+    padding-left: 64px;
+    padding-bottom: 40px;
     height: 200px;
     width: auto;
 }
